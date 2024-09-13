@@ -1,0 +1,371 @@
+/* laptop */
+@media screen and (max-width:1366px) {
+
+    /* header section */
+    header {
+        height: 120vh;
+    }
+
+    .car img {
+        bottom: 20px;
+    }
+
+    .back-skew {
+        height: 100vh;
+    }
+
+    /* header section end */
+
+
+
+
+    /* car categories */
+    .car-image {
+        width: 500px;
+    }
+
+    /* car categories end */
+
+
+
+
+
+    /* pickup section */
+    .pickup-cars {
+        padding-top: 40px;
+    }
+
+    .pickup-cars img {
+        width: 350px;
+    }
+
+
+
+    /* wheel section */
+    .wheel-content {
+        width: 300px;
+    }
+
+    .wheel-img h2 {
+        font-size: 22px;
+    }
+
+
+}
+
+/* mobile */
+@media screen and (max-width:765px) {
+
+    /* header */
+    header {
+        height: 100vh;
+    }
+
+    .navbar {
+        padding-top: 0px;
+        padding: 15px;
+        background: #f5b754;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .logo h1 {
+        color: #fff;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        font-size: 1.3rem;
+        color: #fff;
+    }
+
+    /* header end */
+
+
+
+
+
+    /* front */
+    .brand-h h1 {
+        padding-top: 10px;
+        font-size: 4.5rem;
+        width: 400px;
+    }
+
+    .live-box {
+        width: 350px;
+        height: fit-content;
+        align-items: start;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px 10px;
+        position: relative;
+    }
+
+    .live-icon {
+        position: absolute;
+        right: 20px;
+        bottom: 30px;
+    }
+
+    .car img {
+        height: 120px;
+        bottom: 45px;
+    }
+
+    .back-skew {
+        height: 200vh;
+        transform: skewY(-8deg);
+    }
+
+    /* front end */
+
+
+
+
+    /* car categories */
+    .cars {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .cars-box {
+        padding-top: 15px;
+        gap: 15px;
+    }
+
+    .cars-heading h1 {
+        width: 350px;
+    }
+
+    .box-1 {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .box-2 {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .car-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    /* car categories end */
+
+
+
+
+
+    /* car brand */
+    .brands {
+        gap: 4rem;
+    }
+
+    .brands img {
+        height: 80px;
+    }
+
+    /* car brand end */
+
+
+
+    /* location section */
+    .location-sec {
+        padding: 25px 0px;
+    }
+
+    .location-container {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .location-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .location-content h1 {
+        width: 300px;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 60px;
+    }
+
+    .location-content p {
+        display: none;
+    }
+
+    .location-img {
+        padding-top: 30px;
+    }
+
+    .location-img img {
+        height: 350px;
+    }
+
+    /* location section end */
+
+
+
+    /* pickup-cars section*/
+    .pickup-car {
+        padding: 25px 0px;
+    }
+
+    .pickup-cars {
+        padding-top: 35px;
+        justify-content: center;
+    }
+
+    .c-1 {
+        display: none;
+    }
+
+    .c-2 {
+        display: none;
+    }
+
+    .price-of-car {
+        width: 300px;
+        height: 60px;
+        bottom: 0px;
+    }
+
+    .price span {
+        font-size: 1rem;
+    }
+
+    .price span sub {
+        font-size: 0.5rem;
+    }
+
+    .details-btn button {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .pickup-heading h1 {
+        line-height: 60px;
+    }
+
+    /* pickup-cars end */
+
+
+
+    /* wheel section */
+    .wheel-container {
+        padding-top: 25px;
+    }
+
+    .wheel-heading h1 {
+        line-height: 60px;
+    }
+
+    .wheel-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .wheel-img h2 {
+        padding: 0px 0px
+    }
+
+    /* wheel section end  */
+
+
+    /* footer */
+
+    /* premium section */
+    .premium {
+        margin-top: 150px;
+        height: 10vh;
+    }
+
+    .premium-container {
+        height: 20vh;
+        width: 90%;
+    }
+
+    .p-img img {
+        width: 150px;
+    }
+
+    .p-content h1 {
+        font-size: 1rem;
+        width: 100%;
+        line-height: 20px;
+    }
+
+    .stores img {
+        width: 70px;
+    }
+
+
+    .p-content{
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    /* premium section end */
+
+
+
+    /* upto-date section */
+    .upto-date-container{
+        width: 80%;
+        padding-top: 40px;
+        width: 90%;
+    }
+
+    .upto-date-container h1{
+        display: none;
+    }
+
+    .upto-date-container .input-upto-date input{
+        width: 300px;
+        font-size: 0.8rem;
+    }
+
+    .input-upto-date{
+        gap: 10px;
+    }
+    /* upto-date section end */
+
+
+
+    /* footer content */
+    .footer-main{
+        width: 90%;
+        padding-top: 50px;
+        flex-wrap: wrap;
+    }
+    /* footer content end */
+
+
+
+    /* copyright section */
+    .copyright-content{
+        width: 90%;
+    }
+    .copyright-content p{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+
+
+}

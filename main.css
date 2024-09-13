@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Karla:ital,wght@0,200..800;1,200..800&family=Moderustic:wght@300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+
+
+/* categories car */
+.car-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.cars {
+    width: 80%;
+    height: fit-content;
+    padding: 50px 0px;
+}
+
+.cars-heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.cars-heading h1 {
+    text-align: center;
+    font-size: 3.7rem;
+    line-height: 80px;
+    width: 500px;
+}
+
+.cars-box {
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.car-image {
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.523);
+    position: relative;
+}
+
+.car-1 {
+    background: url(src/range-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.car-2 {
+    background: url(src/range-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.car-3 {
+    background: url(src/range-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.car-4 {
+    background: url(src/range-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.car-content {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#000000b5, #00000000, #000000b1);
+    padding: 40px;
+}
+
+.car-content h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* categories car end */
+
+
+
+
+
+
+
+/* cars branbs */
+.cars-brand {
+    overflow-x: hidden;
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+}
+
+.brands {
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    width: max-content;
+    height: 100%;
+    align-items: center;
+    animation: scroll 60s linear infinite;
+}
+
+/* animation */
+@keyframes scroll {
+    to {
+        transform: translateX(calc(-50% - 4rem));
+    }
+}
+
+.brands img {
+    height: 100px;
+}
+
+/* cars branbs end */
+
+
+
+
+
+
+
+/* location section */
+.location-sec {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0px;
+    overflow-x: hidden;
+}
+
+.location-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.location-content h1 {
+    width: 500px;
+    font-size: 3rem;
+    line-height: 70px;
+}
+
+.location-content p {
+    width: 600px;
+    font-size: 16px;
+    color: #737373;
+}
+
+.location-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    background: #15191d;
+    border-radius: 10px;
+    transition: 0.20s all linear;
+}
+
+.location-content a:hover {
+    background: #f5b754;
+    color: #000;
+}
+
+.location-img img {
+    height: 500px;
+}
+
+/* location section end */
+
+
+
+
+
+
+
+/* pickup car section */
+.pickup-car {
+    overflow-x: hidden;
+    padding: 50px 0px;
+    position: relative;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.pickup-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    background: url(src/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.pickup-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.pickup-heading h1 {
+    font-size: 3rem;
+    width: 500px;
+    text-align: center;
+}
+
+.pickup-cars {
+    padding-top: 60px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pickup-cars img {
+    width: 550px;
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+.price-of-car {
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #737373;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.price span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.price span sub {
+    color: #737373;
+    font-size: 1rem;
+}
+
+.details-btn button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.details-btn button:nth-child(2) {
+    background: #f5b754;
+    color: #fff;
+    cursor: pointer;
+}
+
+.details-btn button:nth-child(1) {
+    background: #15191d;
+    color: #fff;
+    transition: 0.20s linear;
+    cursor: pointer;
+}
+
+.details-btn button:nth-child(1):hover {
+    background: #f5b754;
+    color: #000;
+}
+
+/* pickup car section end */
+
+
+
+
+
+
+
+/* wheel-section */
+.wheel-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+    /* padding-bottom: 200px; */
+}
+
+.wheel-container {
+    padding-top: 80px;
+    width: 80%;
+}
+
+.wheel-heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.wheel-heading h1 {
+    font-size: 3rem;
+    width: 400px;
+    text-align: center;
+}
+
+/* wheel-content */
+
+.wheel-box {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wheel-content {
+    width: 450px;
+}
+
+.wheel-date {
+    display: flex;
+    gap: 12px;
+    border-bottom: 3px solid #737373;
+}
+
+.date-num {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.date-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #737373;
+}
+
+.wheel-img img {
+    width: 100%;
+}
+
+.wheel-img h2 {
+    font-size: 2.5rem;
+    line-height: 40px;
+    padding: 20px 0px;
+}
+
+/* wheel-content end */
+
+/* wheel-section end */
